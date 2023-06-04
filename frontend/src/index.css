@@ -1,0 +1,119 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~react-datepicker/dist/react-datepicker.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  outline: none !important;
+}
+
+select {
+  border: 1px solid #ddd;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3490dc;
+  border-color: #3490dc;
+}
+
+.card-header {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.side {
+  width: 400px;
+}
+.navbar-nav .dropdown-menu {
+  z-index: 100000;
+}
+
+.btn:focus,
+.btn.focus {
+  outline: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.form-error {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-weight: lighter;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.rating-dropdown {
+  display: inline-block;
+}
+
+.rating-dropdown .dropdown-toggle {
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem;
+}
+
+.rating-dropdown.show .dropdown-toggle {
+  border: none !important;
+  border-radius: 0.25rem;
+}
+
+.rating-dropdown .dropdown-toggle .star-ratings {
+  top: -3px;
+}
+
+.rating-dropdown .dropdown-item:focus,
+.rating-dropdown .dropdown-item:hover {
+  color: #16181b;
+  background-color: #a7a7a7;
+}
+
+.restaurant-list .restaurant-item {
+  transition: 0.3s;
+}
+
+.restaurant-list .restaurant-item:hover {
+  background-color: rgba(0,0,0,.125);
+}
+
+.review-list .review-item {
+  border-top: 1px solid rgba(0,0,0,.125)
+}
+
+.review-list .review-item:last-child {
+  border-bottom: 1px solid rgba(0,0,0,.125)
+}
+
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
